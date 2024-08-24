@@ -1,11 +1,17 @@
-import stack.StackOfStringUsingLinkedList;
+import arrayListImpl.MyArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        StackOfStringUsingLinkedList stack = new StackOfStringUsingLinkedList();
-        stack.push("hamza");
-        stack.push("amr");
-        stack.push("mona");
-        stack.push("zima");
-        System.out.println(stack);
+        MyArrayList<Integer>  list = new MyArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+        list.add(6);
+        list.remove(2);
+//        list.clear();
+        System.out.println(list);
     }
 }
